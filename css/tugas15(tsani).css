@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .sidebar li:hover {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .konten {
+    margin-left: 200px;
+    padding: 20px;
+    overflow-y: auto;
+  }

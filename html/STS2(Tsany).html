@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Example</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            overflow: hidden; 
+            position: relative;
+        }
+
+        .card-header {
+            height: 150px;
+            background-color: #eee;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #777;
+            font-size: 20px;
+        }
+
+        .featured-tag {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #f00;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        .card-body {
+            padding: 20px;
+            height: 200px; 
+            overflow-y: auto; 
+
+        .card-title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card-description {
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .card-footer {
+            padding: 10px 20px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .btn {
+            background-color: #f80;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 3px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .additional-info {
+            color: #777;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .vertical-bar {
+            width: 5px;
+            height: 100px;
+            background-color: #ccc;
+            position: absolute; /* Menerapkan position: absolute */
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            150 x 150
+            <span class="featured-tag">Featured</span>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">Card Title</h2>
+            <p class="card-description">
+                This is a card description. It has content that overflows to show the
+                usage of the 'overflow' property. This is a card description. It has content that overflows to show the
+                usage of the 'overflow' property. This is a card description. It has content that overflows to show the
+                usage of the 'overflow' property. This is a card description. It has content that overflows to show the
+                usage of the 'overflow' property.
+            </p>
+        </div>
+        <div class="card-footer">
+            <a href="#" class="btn">Learn More</a>
+            <span class="additional-info">Additional Info</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+* .hiden { *
+    background-color: #ff00ff;
+    width: 200px;
+    height: 80px;
+    overflow: scroll;
+}
+div {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.visible {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    overflow: visible;
+    border: 1px solid;
+}
+.hilang {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.scroll {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: scroll;
+}
+.auto {
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: auto;
+}*

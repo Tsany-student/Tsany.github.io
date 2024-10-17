@@ -1,0 +1,29 @@
+
+/* .heading {
+    font-size: 20px;
+    font-weight: bold;
+}
+.subheading {
+    padding-left: 30px;
+}
+span {
+    padding: 10px;
+    display: block;
+} */
+#none {
+    display: none;
+}
+#hidden {
+    visibility: hidden;
+    height: 100px;
+    background-color: red;
+    width: 100px;
+    padding: 10px;
+}
+#none {
+    display: none;
+    height: 100px;
+    background-color: blue;
+    width: 100px;
+    padding: 10px;
+}

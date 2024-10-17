@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+     background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000000;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.list-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+.list-box h2 {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gray {
+    background-color: rgba(199, 199, 199, 0.414);
+    padding: 15px;
+}
+
+.ordered-list {
+background: w;
+    padding: 10px;
+    border-bottom: 5px solid red;
+}
+
+.ordered-list h2 {
+    color: white;
+    background-color: #F5004F;
+}
+
+.ordered-list ol {
+    text-align: left;
+    list-style-type: decimal;
+    background-color: white;
+}
+.unordered-list {
+    border-bottom: 5px solid yellow;
+}
+ 
+.unordered-list li {
+    background-color: #ffffff;
+}
+
+.unordered-list h2 {
+    background-color: #F9E400;
+    color: white;
+}
+.description-list {
+    border-bottom: 5px solid blue;
+}
+
+.description-list {
+    color: rgb(255, 0, 0);
+}
+.description-list h2 {
+    background-color: blue;
+    color: white;
+}
+
+.whitee {
+    color: white;
+}
+.white {
+    color: rgb(0, 0, 0);
+}
+
+.bagian1 {
+    padding: 15px;
+    list-style-type: square;
+}
+
+.bagian2 {
+    padding: 15px;
+    list-style-type: circle;
+padding-left: 0%;
+}
+
+.bagian2 li {
+    background-color: gainsboro;
+    padding: 5px;
+}
+.SQL {
+    border-top:1px solid yellow; 
+}
+
+.PHP {
+    border-bottom:1px solid yellow;
+}
